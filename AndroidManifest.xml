@@ -37,7 +37,7 @@
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
     
     <uses-sdk
-        android:minSdkVersion="14"
+        android:minSdkVersion="11"
         android:targetSdkVersion="19" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
@@ -193,6 +193,16 @@
             android:name=".ui.activity.CopyToClipboardActivity" 
            	android:label="@string/copy_link"
            	android:icon="@drawable/copy_link" />
+        
+        <!-- mauz added -->
+        <service android:name=".services.DownloadSyncService" />
+        <receiver android:name=".files.DownloadSyncReceiverScheduler" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".files.DownloadSyncReceiverStarter" >
+</receiver>
         
     </application>
 

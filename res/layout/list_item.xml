@@ -29,17 +29,11 @@
         android:layout_height="56dp"
         android:focusable="false"
         android:focusableInTouchMode="false">
-        
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/local_file_indicator"/>
 
         <ImageView
             android:id="@+id/imageView1"
-            android:layout_width="20dp"
-            android:layout_height="20dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_gravity="center_vertical|center"
             android:layout_margin="4dp"
             android:src="@drawable/ic_menu_archive" />
@@ -52,6 +46,12 @@
             android:layout_weight=".1"
             android:maxHeight="15dip"
             android:src="@drawable/ic_favorite" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/local_file_indicator" />
         
     </FrameLayout>
 
