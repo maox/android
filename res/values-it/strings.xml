@@ -8,7 +8,7 @@
   <string name="actionbar_upload_files">File</string>
   <string name="actionbar_open_with">Apri con</string>
   <string name="actionbar_mkdir">Nuova cartella</string>
-  <string name="actionbar_settings">Impostazioni</string>
+  <string name="actionbar_settings">Configurazione</string>
   <string name="actionbar_see_details">Dettagli</string>
   <string name="actionbar_send_file">Invia</string>
   <string name="prefs_category_general">Generale</string>
