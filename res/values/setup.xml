@@ -41,13 +41,13 @@
     <!-- Help, imprint and feedback -->
     <bool name="help_enabled">true</bool>
     <bool name="imprint_enabled">false</bool> 
-    <bool name="recommend_enabled">true</bool>
+    <bool name="recommend_enabled">false</bool>
     <bool name="feedback_enabled">true</bool>
     <string name="url_help">http://digitalarx.com/mobile/help</string>
     <string name="url_imprint"></string>
     <string name="mail_recommend">"mailto:"</string>
     <string name="mail_feedback">"mailto:support@digitalarx.com"</string>
-    <string name="url_app_download">"https://play.google.com/store/apps/details?id=com.owncloud.android"</string>
+<!--     <string name="url_app_download">"https://play.google.com/store/apps/details?id=com.owncloud.android"</string> -->
 
 </resources>
 

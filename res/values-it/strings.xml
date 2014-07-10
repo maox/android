@@ -11,11 +11,11 @@
   <string name="actionbar_settings">Configurazione</string>
   <string name="actionbar_see_details">Dettagli</string>
   <string name="actionbar_send_file">Invia</string>
-  <string name="prefs_category_general">Generale</string>
-  <string name="prefs_category_more">Altro</string>
+  <string name="prefs_category_general">Configurazione</string>
+  <string name="prefs_category_more">Supporto DigitalArx</string>
   <string name="prefs_accounts">Account</string>
   <string name="prefs_manage_accounts">Gestisci account</string>
-  <string name="prefs_pincode">PIN App</string>
+  <string name="prefs_pincode">Blocco con PIN</string>
   <string name="prefs_pincode_summary">Proteggi il tuo client l\'applicazione</string>
   <string name="prefs_instant_upload">Caricamenti istantanei delle foto</string>
   <string name="prefs_instant_upload_summary">Carica immediatamente le foto dalla fotocamera</string>
@@ -28,7 +28,7 @@
   <string name="prefs_log_delete_history_button">Elimina la cronologia</string>
   <string name="prefs_help">Aiuto</string>
   <string name="prefs_recommend">Consiglia ad un amico</string>
-  <string name="prefs_feedback">Segnalazioni</string>
+  <string name="prefs_feedback">Contatta il supporto</string>
   <string name="prefs_imprint">Imprint</string>
   <string name="recommend_subject">Prova %1$s sul tuo smartphone!</string>
   <string name="recommend_text">\"Vorrei invitarti ad usare %1$s sul tuo smartphone!\nScaricalo qui: %2$s\"\n\t</string>
